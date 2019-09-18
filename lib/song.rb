@@ -73,6 +73,7 @@ class Song
     song = self.create
     song.artist_name = splitter[0]
     song.name = splitter[1]
+    self.all << song
   end
 #binding.pry
   
