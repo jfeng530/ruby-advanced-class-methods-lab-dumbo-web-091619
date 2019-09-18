@@ -54,7 +54,7 @@ class Song
     end
   end
   
-  def self.create_from_filename(file)
+  def self.new_from_filename(file)
     split_song = file.split(".")
     splitter = split_song[0].split(" - ")
     song = self.new
