@@ -60,8 +60,8 @@ class Song
     song_name = splitter[0]
     song_artist = splitter[1]
     song = self.create
-    song.name = song_name
-    song.artist_name = song_artist
+    song.name = splitter[0]
+    song.artist_name = splitter[1]
   end 
   
 #binding.pry
