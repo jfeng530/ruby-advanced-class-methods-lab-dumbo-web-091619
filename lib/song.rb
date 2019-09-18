@@ -55,9 +55,9 @@ class Song
   end
   
   def self.new_from_filename(file)
-    split_file = file.split(".")
-    splitter = split_file[0].split(" - ")
-    song = self.new 
+    split_song = asong.split(".")
+    splitter = split_song[0].split(" - ")
+    song = self.new
     song.name = splitter[0]
     song.artist_name = splitter[1]
   end 
